@@ -1,0 +1,33 @@
+.box {
+  text-align: center;
+  height: 20vh;
+  border-radius: 8px;
+  box-shadow: 0 0 4px var(--subtle);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 5vmin;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.box.small {
+  max-width: 550px;
+  margin: 1rem auto;
+}
+.cube {
+  width: 400px;
+  height: 400px;
+  background: #5691c8;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 5vmin;
+}
